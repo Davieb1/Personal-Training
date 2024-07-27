@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Trainer Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <div class="hamburger">
+            <i class="fa fa-bars"></i>
+        </div>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#reviews">Customer Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </div>
+    
+    <header id="hero" class="hero">
+        <video width="100%" autoplay loop muted>
+            <source src="In-Action.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1 class="typing-effect">Transform Your Body, Transform Your Life</h1>
+            <p>Personalised Training Plans for Every Goal</p>
+            <button>Book a Free Consultation</button>
+        </div>
+    </header>
+
+    <section id="about" class="about-trainer">
+        <h2>About Me</h2>
+        <img src="Coach.jpg" alt="Personal Trainer">
+        <p>Hello, I'm [Trainer's Name], a certified personal trainer with over 10 years of experience...</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Services Offered</h2>
+        <ul>
+            <li><button class="service-btn" data-service="one-on-one">One-on-One Training</button></li>
+            <li><button class="service-btn" data-service="group">Group Training</button></li>
+            <li><button class="service-btn" data-service="online">Online Coaching</button></li>
+            <li><button class="service-btn" data-service="nutrition">Nutritional Coaching</button></li>
+        </ul>
+
+        <!-- Service Detail Cards -->
+        <div id="one-on-one" class="service-card">
+            <div class="card-content">
+                <span class="close-btn">&times;</span>
+                <h3>Personal Training</h3>
+                <p>Experience customised workouts designed to meet your specific goals. Our one-on-one sessions focus on
+                    proper form, technique, and progression to ensure you achieve maximum results.</p>
+            </div>
+        </div>
+
+        <div id="group" class="service-card">
+            <div class="card-content">
+                <span class="close-btn">&times;</span>
+                <h3>Group Training</h3>
+                <p>Join our dynamic group training sessions for a fun and motivating workout experience. Perfect for
+                friends, family, or anyone looking to add a social element to their fitness routine.</p>
+            </div>
+        </div>
+
+        <div id="online" class="service-card">
+            <div class="card-content">
+                <span class="close-btn">&times;</span>
+                <h3>Online Coaching</h3>
+                <p>Train with us from the comfort of your home or at the gym in your own time with our comprehensive online training programs. Receive
+                    personalised workout plans, video demonstrations, and regular check-ins to keep you on track.</p>
+            </div>
+        </div>
+
+        <div id="nutrition" class="service-card">
+            <div class="card-content">
+                <span class="close-btn">&times;</span>
+                <h3>Nutritional Coaching</h3>
+                <p>Achieve your fitness goals faster with our expert nutritional coaching. Learn how to fuel your body
+                    with the right foods, manage your diet, and make sustainable lifestyle changes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="testimonials">
+        <h2>Customer Reviews</h2>
+        <blockquote>"I've lost 20 pounds and gained so much confidence!" - Client A</blockquote>
+        <blockquote>"The best decision I ever made was to start training with [Trainer's Name]." - Client B</blockquote>
+        <blockquote>"I was low on confidence and tried every diet, they didn't work [Trainer's Name] helped me through and view things differently." - Client C</blockquote>
+    </section>
+
+    <section id="philosophy" class="philosophy">
+        <h2>My Approach</h2>
+        <p>I believe in a holistic approach to fitness that includes customized workout plans and nutritional guidance...</p>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to Get Started?</h2>
+        <button>Get Started Today</button>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <details>
+            <summary>What is your pricing?</summary>
+            <p>Our pricing is competitive and varies based on the package you choose...</p>
+        </details>
+        <details>
+            <summary>Where are you located?</summary>
+            <p>We are located at 123 Fitness St, Fit City...</p>
+        </details>
+        <details>
+            <summary>Who do you serve?</summary>
+            <p>We serve three different areas: Online Coaches, Hybrid Coaching & Gym/Studio Owners...</p>
+        </details>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <p>&copy; 2024 Personal Trainer. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#" class="social-media-fb"><i class="fa-brands fa-facebook"></i> Facebook</a>
+            <a href="#" class="social-media-insta"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="#" class="social-media-twitter"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
