@@ -592,13 +592,13 @@ footer .social-media a i {
         max-width: 100px; /* Adjust image size for mobile */
     }
 
-    .service-card .close-btn {
-    position: absolute;
-    top: 150px;
-    right: 600px;
-    font-size: 1.5em;
-    cursor: pointer;
-}
+   .service-card .close-btn {
+        position: absolute;
+        top: 150px;
+        right: 240px;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
     .contact form {
         padding: 15px;
     }
@@ -619,7 +619,7 @@ footer .social-media a i {
 }
 
 /* Mobile devices (<= 320px) */
-@media (max-width: 480px) {
+@media (max-width: 320px) {
     header.hero h1 {
         font-size: 0.7em;
     }
@@ -637,12 +637,12 @@ footer .social-media a i {
     }
 
     .service-card .close-btn {
-    position: absolute;
-    top: 150px;
-    right: 600px;
-    font-size: 1.5em;
-    cursor: pointer;
-}
+        position: absolute;
+        top: 150px;
+        right: 160px;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
     .contact form {
         padding: 15px;
     }
