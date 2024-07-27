@@ -594,8 +594,8 @@ footer .social-media a i {
 
     .service-card .close-btn {
     position: absolute;
-    top: 250px;
-    right: 490px;
+    top: 150px;
+    right: 600px;
     font-size: 1.5em;
     cursor: pointer;
 }
@@ -638,8 +638,8 @@ footer .social-media a i {
 
     .service-card .close-btn {
     position: absolute;
-    top: 250px;
-    right: 490px;
+    top: 150px;
+    right: 600px;
     font-size: 1.5em;
     cursor: pointer;
 }
