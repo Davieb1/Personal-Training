@@ -624,45 +624,51 @@ footer .social-media a i {
 }
 
 /* Mobile devices (<= 320px) */
+/* Mobile devices (<= 320px) */
 @media (max-width: 320px) {
     header.hero h1 {
-        font-size: 0.7em;
+        font-size: 1em;
     }
 
     header.hero p {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 
     section h2 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .about-trainer img {
-        max-width: 100px; /* Adjust image size for mobile */
+        max-width: 80px; /* Adjust image size for mobile */
     }
 
-    .service-card .close-btn {
-        position: absolute;
-        top: 150px;
-        right: 160px;
-        font-size: 1.5em;
-        cursor: pointer;
-    }
     .contact form {
-        padding: 15px;
+        padding: 10px;
     }
 
     .contact form button {
-        padding: 10px 20px;
-        font-size: 0.9em;
+        padding: 8px 15px;
+        font-size: 0.8em;
     }
 
     footer {
-        padding: 15px;
+        padding: 10px;
     }
 
     footer .social-media a {
         display: block;
         margin: 5px 0;
+    }
+
+    .service-card .card-content {
+        max-width: 95%;
+        width: 95%;
+        padding: 10px;
+    }
+
+    .service-card .close-btn {
+        top: 5px;
+        right: 5px;
+        font-size: 1em;
     }
 }
