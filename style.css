@@ -493,6 +493,14 @@ footer .social-media a i {
     .about-trainer img {
         max-width: 150px; /* Adjust image size for smaller screens */
     }
+    
+    .service-card .close-btn {
+    position: absolute;
+    top: 250px;
+    right: 490px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
 
     .contact form {
         padding: 15px;
@@ -555,6 +563,15 @@ footer .social-media a i {
         padding: 10px;
         border-bottom: 1px solid #444;
     }
+
+    .service-card .close-btn {
+    position: absolute;
+    top: 250px;
+    right: 490px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+    
 }
 
 /* Mobile devices (<= 480px) */
@@ -575,6 +592,13 @@ footer .social-media a i {
         max-width: 100px; /* Adjust image size for mobile */
     }
 
+    .service-card .close-btn {
+    position: absolute;
+    top: 250px;
+    right: 490px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
     .contact form {
         padding: 15px;
     }
@@ -612,6 +636,13 @@ footer .social-media a i {
         max-width: 100px; /* Adjust image size for mobile */
     }
 
+    .service-card .close-btn {
+    position: absolute;
+    top: 250px;
+    right: 490px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
     .contact form {
         padding: 15px;
     }
