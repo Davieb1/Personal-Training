@@ -592,10 +592,15 @@ footer .social-media a i {
         max-width: 100px; /* Adjust image size for mobile */
     }
 
+    .service-card .card-content {
+        wax-width: 90%;
+        width: 90%;
+    }
+
    .service-card .close-btn {
         position: absolute;
-        top: 150px;
-        right: 240px;
+        top: 5px;
+        right: 5px;
         font-size: 1.5em;
         cursor: pointer;
     }
