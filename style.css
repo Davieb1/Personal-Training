@@ -598,7 +598,7 @@ footer .social-media a i {
     }
 
    .service-card .close-btn {
-        position: absolute;
+        position: relative;
         top: 5px;
         right: 5px;
         font-size: 1.5em;
